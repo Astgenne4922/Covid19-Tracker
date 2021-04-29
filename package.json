@@ -1,0 +1,22 @@
+{
+    "name": "covid19-info",
+    "version": "1.0.0",
+    "description": "Backend API",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "serve": "node index.js",
+        "dev": "nodemon --ignore data/ index.js"
+    },
+    "author": "Candido Daniele",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "fs": "*",
+        "morgan": "^1.10.0",
+        "node-cron": "^3.0.0",
+        "node-fetch": "^2.6.1",
+        "path": "^0.12.7"
+    }
+}
